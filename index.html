@@ -180,14 +180,6 @@
     gap: 6px;
   }
 
-  .maps-caption {
-    text-align: center;
-    color: var(--ink-dim);
-    font-size: clamp(10.5px, 3vw, 12px);
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
-
   .maps {
     flex: 1;
     padding: 0;
@@ -295,7 +287,6 @@
     .maps .label { font-size: min(23px, 2.3vh); }
     .site .label, .whatsapp .label { font-size: min(17px, 1.7vh); }
     .site .icon, .whatsapp .icon { width: min(26px, 2.4vh); height: min(26px, 2.4vh); margin: 0 auto min(8px, 0.9vh); }
-    .maps-caption { font-size: min(14px, 1.4vh); }
   }
 </style>
 </head>
@@ -310,21 +301,20 @@
     </div>
 
     <div class="grid">
-      <div class="card photo">
+      <a class="card photo" href="https://www.instagram.com/dr.rafaelvrocha/" target="_blank" rel="noopener">
         <img src="rafael.jpg" alt="Dr. Rafael Rocha">
         <div class="who">
-          <div class="handle">Dr. Rafael Rocha</div>
+          <div class="handle">@dr.rafaelvrocha</div>
           <div class="role">Ortopedia e Traumatologia</div>
         </div>
-      </div>
+      </a>
 
       <div class="maps-wrap">
-        <div class="maps-caption">Águas Claras</div>
         <a class="card maps" href="https://maps.app.goo.gl/47LTjNDriyyiw3SW7" target="_blank" rel="noopener">
           <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3839.0!2d-48.0122536!3d-15.8349545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3210c0c623e9%3A0x5e30ef2882e44bfb!2sR.%205%20Norte%2C%2003%20-%20%C3%81guas%20Claras%2C%20Bras%C3%ADlia%20-%20DF%2C%2071907-720!5e0!3m2!1spt-BR!2sbr!4v1700000000000" loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1" aria-hidden="true"></iframe>
           <div class="body">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            <div class="label">Localização</div>
+            <div class="label">Localização: Unidade Águas Claras</div>
           </div>
         </a>
       </div>
@@ -334,7 +324,7 @@
         <div class="label">Site</div>
       </a>
 
-      <a class="card whatsapp" href="https://wa.me/5561999190221?text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20%5Bseu%20nome%5D%2C%20vim%20pela%20p%C3%A1gina%20de%20links%20e%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Rafael%20Rocha." target="_blank" rel="noopener">
+      <a class="card whatsapp" href="https://api.whatsapp.com/send/?phone=5561999190221&text=Ol%C3%A1%2C+vim+pelo+instagram+e+gostaria+de+agendar+uma+consulta+com+o+Dr.+Rafael+Rocha.&type=phone_number&app_absent=0" target="_blank" rel="noopener">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0zm0 0a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"></path></svg>
         <div class="label">Agende uma consulta</div>
       </a>
