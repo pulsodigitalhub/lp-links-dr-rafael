@@ -30,6 +30,7 @@ jobs:
       - name: Checar compliance Google Ads
         env:
           COMPLIANCE_BASE_URL: "https://lp-links-dr-rafael.vercel.app"
+          COMPLIANCE_EXTRA_DOMAINS: "https://www.drrafaelrochaortopedia.com.br"
         run: node scripts/check-google-ads-compliance.mjs
 
 # O job falha (exit 1) em violações bloqueantes e impede o merge/publicação.
